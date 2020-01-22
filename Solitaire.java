@@ -218,7 +218,7 @@ public class Solitaire implements MouseMotionListener
             
             //game
             //create and shuffle new deck
-            deck = new Deck(big, "C:\\Users\\Sharo\\OneDrive\\Documents\\NetBeansProjects\\Homework7\\src\\main\\java\\edu\\fau\\COT4930\\cards.gif");
+            deck = new Deck(big, "cards.gif");
             deck.shuffle();
             //initialize all the game piles
             newGame();
